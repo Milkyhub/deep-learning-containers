@@ -10,7 +10,7 @@ ARG TORCHAUDIO_URL=https://framework-binaries.s3.us-west-2.amazonaws.com/pytorch
 ARG TORCHTEXT_URL=https://framework-binaries.s3.us-west-2.amazonaws.com/pytorch/v2.1.0/cpu/torchtext-0.16.0%2Bcpu-cp310-cp310-linux_x86_64.whl
 ARG TORCHDATA_URL=https://framework-binaries.s3.us-west-2.amazonaws.com/pytorch/v2.1.0/cpu/torchdata-0.7.0%2B7c7597b-cp310-cp310-linux_x86_64.whl
 ARG TORCHSERVE_VERSION=0.9.0
-ARG SM_TOOLKIT_VERSION
+ARG SM_TOOLKIT_VERSION=2.0.21
 
 ########################################################
 #  _____ ____ ____    ___
