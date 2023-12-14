@@ -27,7 +27,7 @@ ARG TORCHVISION_URL=https://aws-pytorch-unified-cicd-binaries.s3.us-west-2.amazo
 ARG TORCHAUDIO_URL=https://aws-pytorch-unified-cicd-binaries.s3.us-west-2.amazonaws.com/r2.0.0_inference/cpu_py310/torchaudio-2.0.1%2Bcpu-cp310-cp310-linux_x86_64.whl
 
 # HF ARGS
-ARG TRANSFORMERS_VERSION
+ARG TRANSFORMERS_VERSION=4.28.1
 ARG DIFFUSERS_VERSION=0.23.1
 
 # Set Debian interaction
